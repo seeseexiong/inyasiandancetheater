@@ -1,12 +1,12 @@
-/* show Cidy's face */
-/* .parallax-container {
-    height: 500px;
-} */
 .parallaxImage1 {
     top: -270px;
 }
 
-
+/* margins for text contents in About Us and Contact */
+.contentsMargin {
+    margin-right: 15%;
+    margin-left: 15%;
+}
 /* Makes parallax images responsive */
 .resImg {
     width: 100%;
