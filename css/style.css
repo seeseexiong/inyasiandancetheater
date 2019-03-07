@@ -1,6 +1,22 @@
+/* Show Cidy's face */
 .parallaxImage1 {
-    top: -1100px;
+    top: -250px;
 }
+
+.greeting {
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #494848a2;
+	width: 900px;
+
+    font-size: 88px;
+	position: absolute;
+	bottom: 10%;
+	right: 0;
+}
+
 /* Flyer */
 #ads {
     border: solid 1px white;
