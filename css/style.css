@@ -1,7 +1,13 @@
 .parallaxImage1 {
     top: -270px;
 }
-
+/* Flyer */
+#ads {
+    border: solid 1px white;
+    width: 55%;
+    margin: auto;
+    padding: 30px;
+}
 /* margins for text contents in About Us and Contact */
 .contentsMargin {
     margin-right: 15%;
