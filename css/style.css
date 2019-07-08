@@ -17,12 +17,20 @@
 	right: 0;
 }
 
+.headerBio{
+    font-size: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
 /* Flyer */
-#ads {
+.ads {
     border: solid 1px white;
-    width: 55%;
     margin: auto;
     padding: 30px;
+    text-align: justify;
+    font-size: 20px;
 }
 /* margins for text contents in About Us and Contact */
 .contentsMargin {
@@ -36,8 +44,24 @@
 	overflow: hidden;
 }
 
+.info-card {
+    margin-top: 80px;
+    padding: 0;
+    border-top: solid white 10px;
+    border-bottom: solid white 10px;
+}
+.text-background {
+    background-color: rgb(135, 140, 141);
+}
+
+.bigFont {
+    font-size: 58px;
+    text-align: justify;
+}
 .infoContainer {
     background-color: #263238;
+    padding-top: 40px;
+    padding-bottom: 90px;
 }
 
 .fontColor {
