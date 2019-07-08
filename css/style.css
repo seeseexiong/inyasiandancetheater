@@ -3,6 +3,10 @@
     top: -250px;
 }
 
+#small-logo {
+    height: 60px;
+}
+
 .greeting {
 	color: #ffffff;
 	line-height: 0px;
