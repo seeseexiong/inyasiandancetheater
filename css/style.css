@@ -1,6 +1,21 @@
+#iadt-header {
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    left: 20%;
+    color: white;
+    /* text have borders */
+    text-shadow: 2px 2px 4px #000000;
+    /* glows */
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+    /* google font */
+    font-family: 'Cinzel', serif;
+}
+
 /* Show Cidy's face */
 .parallaxImage1 {
-    top: -250px;
+    top: 50%;
 }
 
 #small-logo {
@@ -24,7 +39,7 @@
 .headerBio{
     font-size: 15px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 
 }
 
@@ -54,6 +69,7 @@
     border-top: solid white 10px;
     border-bottom: solid white 10px;
 }
+
 .text-background {
     background-color: rgb(135, 140, 141);
 }
@@ -62,10 +78,10 @@
     font-size: 58px;
     text-align: justify;
 }
+
+/* home's background color */
 .infoContainer {
     background-color: #263238;
-    padding-top: 40px;
-    padding-bottom: 90px;
 }
 
 .fontColor {
