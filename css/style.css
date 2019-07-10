@@ -79,7 +79,7 @@
 
 .box-img {
     position: absolute;
-    height: 100%;
+    width: 100%;
 }
 
 /* Makes line height smaller */
