@@ -89,6 +89,8 @@
     opacity: 1;
     color: white;
     padding-left: 10px;
+
+    /* text-align: center; */
 }
 
 /* hoving over box's area shows descritpion */
@@ -97,8 +99,8 @@
 }
 
 .name {
-    font-size: 2vw;
-    line-height: 60%;
+    font-size: 40px;
+    line-height: 67%;
     margin-top: 15px;
 }
 
@@ -200,6 +202,9 @@ footer {
         bottom: -89px;
         height: 40%;
     } 
+    .name {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 640px) {
