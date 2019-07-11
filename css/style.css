@@ -218,19 +218,19 @@ footer {
 
 @media screen and (max-width: 540px) {
     .overlay {
-        bottom: 0px;
+        bottom: -40px;
     } 
 }
 
 @media screen and (max-width: 455px) {
     .dance-groups {
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px 50px ;
-        margin: 90px;
+        grid-gap: 40px 20px ;
+        margin: 30px;
     }
 
     .overlay {
-        bottom: 40px;
+        bottom: -25px;
         height: 30%;
     } 
 }
@@ -267,6 +267,7 @@ footer {
 }
 @media screen and (max-width: 520px) {
     .name {
-        font-size: 16px;
+        font-size: 19px;
+        margin-top: 10px;
     }
 }
