@@ -116,9 +116,6 @@
 
 /* ------------------------ ? ------------ */
 
-.fontColor {
-    color: rgb(110, 110, 110);
-}
 
 /* Footer */
 footer {
@@ -129,13 +126,12 @@ footer {
     color: rgb(83, 83, 83);
 }
 
+/* NAV BAR styleing + + + + + + + + + + + + + + + + + + + + */
 .nav-wrapper{
     background-color:#263238;
 }
 
-#nav-mobile{
-    color: rgb(83, 83, 83);
-}
+
 
 
 
