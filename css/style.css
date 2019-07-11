@@ -90,6 +90,7 @@
     color: white;
     padding-left: 10px;
 
+    /* margin-bottom: 30px; */
 }
 
 /* hoving over box's area shows descritpion */
@@ -147,6 +148,7 @@ footer {
     .dance-groups {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 220px 40px ;
+        
         margin: 90px;
     }
 
