@@ -90,7 +90,6 @@
     color: white;
     padding-left: 10px;
 
-    /* text-align: center; */
 }
 
 /* hoving over box's area shows descritpion */
@@ -188,9 +187,10 @@ footer {
 @media screen and (max-width: 750px) {
     .dance-groups {
         grid-gap: 180px 50px ;
+        margin: 50px;
     }
     .overlay {
-        bottom: -103px;
+        bottom: -143px;
     } 
 }
 
@@ -199,8 +199,8 @@ footer {
         grid-gap: 150px 50px ;
     }
     .overlay {
-        bottom: -89px;
-        height: 40%;
+        bottom: -125px;
+        height: 55%;
     } 
     .name {
         font-size: 30px;
@@ -212,7 +212,7 @@ footer {
         grid-gap: 100px 50px ;
     }
     .overlay {
-        bottom: -49px;
+        bottom: -84px;
     } 
 }
 
@@ -257,4 +257,16 @@ footer {
         margin: 50px 30px;
     }
 
+}
+
+/* FONT CHANGES ---------------------- */
+@media screen and (max-width: 570px) {
+    .name {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .name {
+        font-size: 16px;
+    }
 }
