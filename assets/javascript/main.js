@@ -10,4 +10,8 @@ $(document).ready(function(){
     
     // Initialization for side nav bar from materialize
     $('.sidenav').sidenav();
+
+    // Initialization for modal from materialize - used in ourService.html
+    $('.modal').modal();
+
 });

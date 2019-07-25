@@ -112,11 +112,6 @@
     margin-top: 15px;
 }
 
-
-
-/* ------------------------ ? ------------ */
-
-
 /* Footer */
 footer {
     text-align: center;
@@ -130,7 +125,13 @@ footer {
 .nav-wrapper{
     background-color:#263238;
 }
+/* button to make a dance request */
+#reservationBtn {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 
+}
 
 
 
