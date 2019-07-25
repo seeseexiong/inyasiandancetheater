@@ -63,7 +63,7 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 0px;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 .dance-groups {
     display: grid;
@@ -73,6 +73,7 @@
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 20px;
+    margin-bottom: 210px;
 
     /* overflow: hidden; */
 }
@@ -266,10 +267,19 @@ footer {
     } 
 }
 
+@media screen and (max-width: 573px) {
+    #card-text-content, h2 {
+        font-size: 30px;
+    }
+    #dance-team-header {
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 540px) {
     .overlay {
         bottom: -40px;
-    } 
+    }  
 }
 
 @media screen and (max-width: 455px) {
