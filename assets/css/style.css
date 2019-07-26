@@ -68,9 +68,16 @@
     text-shadow: 1px 1px 1px #000000;
 
 }
+
+.job-title {
+    margin: -3px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 17px;
+    margin-top: 2px;
+    margin-bottom: -23px;
+}
 .teacher-bio {
     font-size: 14px;
-    margin: 0;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
 }
