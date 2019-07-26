@@ -60,8 +60,10 @@
     background-color: #7a7a7a;
 }
 
-.flow-text, h4 {
+/* Teachers' names */
+.flow-text h4 {
     margin: 0;
+    font-family: 'Satisfy', cursive;
 }
 .teacher-bio {
     font-size: 14px;
@@ -150,7 +152,6 @@ footer {
 /* Facebook Icon */
 #fbIcon {
     color: rgb(212, 212, 212);
-    display: inline-block;
     position: relative;
     float: right;
     bottom: 5px;
