@@ -161,6 +161,12 @@
     margin-bottom: 50px;
 }
 
+.phone-icon, .email-icon {
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 15px;
+    background-color: rgb(255, 255, 255);
+}
 
 /* Footer */
 footer {
