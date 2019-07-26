@@ -63,15 +63,20 @@
 /* Teachers' names */
 .flow-text h4 {
     margin: 0;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(216, 0, 0);
+    text-shadow: 1px 1px 1px #000000;
+
 }
 .teacher-bio {
     font-size: 14px;
     margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
 }
 
 .teacher-img {
-    border: solid 2px red;
+    border: solid 2px rgb(216, 0, 0);
 }
 #dance-team-header, #dance-team-teachers {
     margin-left: 30px;
