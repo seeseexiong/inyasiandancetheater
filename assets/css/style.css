@@ -60,7 +60,18 @@
     background-color: #7a7a7a;
 }
 
-#dance-team-header {
+.flow-text, h4 {
+    margin: 0;
+}
+.teacher-bio {
+    font-size: 14px;
+    margin: 0;
+}
+
+.teacher-img {
+    border: solid 2px red;
+}
+#dance-team-header, #dance-team-teachers {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 35px;
@@ -135,6 +146,19 @@ footer {
     padding-bottom: 20px;
     background-color:#263238;
     color: rgb(83, 83, 83);
+}
+/* Facebook Icon */
+#fbIcon {
+    color: rgb(212, 212, 212);
+    display: inline-block;
+    position: relative;
+    float: right;
+    bottom: 5px;
+}
+
+#fbIcon:hover i{
+    color: white;
+    transform: scale(1.1);
 }
 
 /* NAV BAR styleing + + + + + + + + + + + + + + + + + + + + */
