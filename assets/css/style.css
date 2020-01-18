@@ -111,7 +111,6 @@
 .dance-groups-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-auto-rows: minmax(auto, 150px); */
     grid-gap: 10px 50px;
     margin-left: 140px;
     margin-right: 140px;
@@ -123,16 +122,17 @@
 /* make picture repsonsive to the grid set in .dance-groups-container */
 .dance-group-box {
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* height: 30vw; */
     width: 100%;
     height: 98.6%;
+    border-radius: 8px;
+    border: 1px solid white;
 }
 
 /* make the image's width 100% as the dance-group-box */
 .width-fixed {
     width: 100%;
-    /* position: absolute; */
 }
 
 /* the description is overlay or ontop of the images. It is invisiable until hover over */
@@ -143,17 +143,21 @@
     bottom: 0px;
     background: rgb(0, 0, 0);
     color: #f1f1f1; 
-    transition: .5s ease;
+    transition: .3s ease;
     opacity: 1; /* 1 means solid */
     color: white;
     padding: 10px;
-
-    /* margin-bottom: 30px; */
 }
 
-/* hoving over box's area shows descritpion */
+/* when you hover over that image, the over lay of the description changed color */
 .dance-group-box:hover .overlay {
-    opacity: .5;
+    background-color: #4d4d4d;
+}
+/* when you hover over that image, the image changed color */
+.dance-group-box:hover {
+    opacity: .8;
+    transition: .3s ease;
+
 }
 
 .name {
