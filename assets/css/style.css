@@ -25,6 +25,11 @@ body {
     font-family: 'Cinzel', serif;
 }
 
+.glow-text {
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+}
+
 /* style quotes on silder */
 .quotes {
     text-shadow: 2px 2px 4px #000000;
