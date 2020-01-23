@@ -310,4 +310,8 @@ footer {
     .age {
         font-size: 40px;
     }
+
+    .card-text-content, .contentsMargin {
+        margin: 40px;
+    }
 }
