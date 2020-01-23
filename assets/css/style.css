@@ -294,21 +294,19 @@ footer {
         text-align: center;
     }
     #ageCat {
-        padding: 0px;
+        padding: 40px;
+
         margin-left: 37%;
         margin-bottom: 50px;
     }
 
-    .dance-groups-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
     .name {
-        font-size: 60px;
+        font-size: 2.5vw;
+        margin-top: 5px;
     }
 
     .age {
-        font-size: 40px;
+        font-size: 1vw;
     }
 
     .card-text-content, .contentsMargin {
@@ -317,13 +315,61 @@ footer {
 }
 
 @media screen and (max-width: 999px) {
+    .dance-groups-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 48%;
+    }
+
     .card-teacher1 {
         width: 80%;
         margin-left: 8%;
     }
+
+    #ageCat {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dance-group-box {
+        width: 60%;
+        margin-left: -110px;
+    }
+  
+}
+
+@media screen and (max-width: 850px) {
+    .dance-group-box {
+        width: 150%;
+        margin-left: -190px;
+    }
+    .name {
+        font-size: 4vw;
+        margin-top: 20px;
+    }
+
+    .age {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .dance-group-box {
+        width: 190%;
+        margin-left: -120px;
+    }
+    .name {
+        font-size: 4vw;
+        margin-top: 5px;
+    }
+
+    .age {
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width: 430px) {
+    
     .card-text-content h2 {
         font-size: 40px;
     }
@@ -332,6 +378,15 @@ footer {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .dance-group-box {
+        width: 290%;
+        margin-left: -100px;
+    }
+
+    .name {
+        margin-top: 0px;
     }
 }
 
