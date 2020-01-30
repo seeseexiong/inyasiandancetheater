@@ -314,12 +314,50 @@ footer {
 
 
 /* When screen's width is 1024 or smaller, the image stays 1024px ============================ */
+/* make the facts card responsive */
+@media screen and (max-width: 1424px) {
+    .facts-container {
+        /* margin: 80px; */
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .iadt-facts {
+        display: block; 
+        width: 35%;
+        margin-left: 10%;
+    }
+    .contact-button {
+        margin-left: 14%;
+    }
+}
 
+@media screen and (max-width: 996px) {
+    .facts-container {
+        width: 80%;
+    }
+    .iadt-facts {
+        clear: both;
+        width: 70%;
+    }
+    #second-iadt-facts {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .iadt-facts {
+        width: 90%;
+    }
+}
+
+/* Make age category responsive */
 @media screen and (max-width: 1200px) {
     #ageCat {
         margin: auto;
     }
 }
+
 
 @media screen and (max-width: 1091px) {
     #iadt-img {
