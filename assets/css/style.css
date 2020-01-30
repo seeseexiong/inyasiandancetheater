@@ -136,8 +136,13 @@ body {
     display: block;
     float: left;
     margin-left: 80px;
-    margin-bottom: 30px;
 }
+
+.contact-button {
+    margin-left: 20.7%;
+    margin-bottom: 4rem;
+}
+
 /* ABOUT.HTML + + + + + + + + + + + + + + + + + + + +  + + + + + */
 /* Teacher's card */
 
