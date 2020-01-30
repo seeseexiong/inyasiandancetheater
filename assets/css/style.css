@@ -30,6 +30,10 @@ body {
     filter: drop-shadow(8px 8px 8px rgb(255, 255, 255));
 }
 
+.caption h4, .caption h6{
+    color: rgba(255, 255, 255, 0.527);
+} 
+
 /* style quotes on silder */
 .quotes {
     text-shadow: 2px 2px 4px #000000;
@@ -107,7 +111,7 @@ body {
     
 }
 
-.iadt-bio {
+#iadt-intro {
     font-family: 'Roboto', sans-serif;
     font-size: 1.7vw;
     color: white;
@@ -119,7 +123,21 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.facts-container {
+    margin-bottom: 40px;
+}
 
+.iadt-facts {
+    width: 40%;
+    border: solid 1px rgb(196, 196, 196);
+    border-radius: 3px;
+    padding: 20px;
+
+    display: block;
+    float: left;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
 /* ABOUT.HTML + + + + + + + + + + + + + + + + + + + +  + + + + + */
 /* Teacher's card */
 
