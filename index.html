@@ -20,6 +20,9 @@
     <link
         href="https://fonts.googleapis.com/css?family=Dancing+Script|Darker+Grotesque|Fjalla+One|Open+Sans+Condensed:300&display=swap"
         rel="stylesheet">
+    <!-- Google Fonts for IADT description -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
     <title>About IADT</title>
 </head>
 
@@ -93,21 +96,41 @@
     <div>
         <h1 id="iadt-header">Iny Asian Dance Theater</h1>
     </div>
-    <!-- Customize Card -->
+    <!-- Customize Card =====================================-->
     <div class="card-background">
         <div>
             <img src="assets/images/2020/groupPhoto.jpg" id="iadt-img" class="responsive-img">
         </div>
-        <div class="card-text-content">
+        <div class="iadt-bio">
             <p>
-                Founded in 2000, Iny Asian Dance Theater .... I am good at containing small bits of information. Sed
-                consectetur metus in arcu efficitur lacinia sed vel metus. Praesent eu eleifend dui, porttitor
-                varius lectus. Sed feugiat vehicula diam, et elementum justo facilisis id. Phasellus ornare placerat
-                tincidunt. Ut scelerisque quam nec sollicitudin iaculis. Pellentesque at risus vel sapien feugiat
-                viverra. Donec nisi massa, tempor vitae maximus sit amet, fringilla in massa. Proin iaculis posuere
-                ligula, in imperdiet nisl tempor vel. In hendrerit arcu in quam molestie tempus.
+                If you’re looking to learn Asian dance in the twin cities, you’ve come to the right place. Whether you
+                have 10 years experience or none, 6 years old or 35 we have a place for you.
             </p>
+            <p>
+                We foster a variety of Asian contemporary dance styles; Bollywood, Chinese, Hmong, Laos, Thai, Laos,
+                Miao, Mongolian, Tibetan, and Yi.
+            </p>
+            <a class="waves-effect waves-light btn-small deep-orange darken-3" href="classes.html">Learn More -></a>
         </div>
+
+    </div>
+
+    <!-- Parallax ===========================================-->
+    <!-- 1st Parallax Image -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/groupqeej.jpg"></div>
+    </div>
+    <!-- Text inbetween parallax images -->
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">Parallax</h2>
+            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in
+                this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+    </div>
+    <!-- 2nd Parallax Image -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/tibetian.JPG"></div>
     </div>
 
     <!-- Teachers ===========================================-->
@@ -279,7 +302,7 @@
     </div>
     <!--Ends container of the teachers' bio-->
 
-    <!-- Footer -->
+    <!-- Footer =============================================-->
     <footer class="clearFloat footer1">
         <div class=" footer-copyright">
             <div class="container">
@@ -297,6 +320,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- My external JS file -->
     <script type="text/JavaScript" src="assets/javascript/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+    </script>
 
 </body>
 
