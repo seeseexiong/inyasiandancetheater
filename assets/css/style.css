@@ -124,7 +124,8 @@ body {
     margin-bottom: 50px;
 }
 .facts-container {
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 70px;
 }
 
 .iadt-facts {
@@ -136,6 +137,12 @@ body {
     display: block;
     float: left;
     margin-left: 80px;
+    margin-top: 10px;
+}
+
+#see-live-button {
+    clear: both;
+    margin-top: 60px;
 }
 
 .contact-button {
@@ -143,9 +150,32 @@ body {
     margin-bottom: 4rem;
 }
 
+#events-div {
+    clear: both;
+    padding: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: rgb(212, 212, 212);
+    /* background-color:#263238; */
+
+}
+/* center the image of the pablo perfmance */
+#pablo-performance {
+    text-align: center;
+}
+/* adjust size and set broader to pablo performance image */
+#performance-img {
+    width: 60%;
+    padding: .2rem;
+    border: 1px solid black;
+    
+}
+#events-div img {
+    margin-top: 10px;
+   }
+
 /* ABOUT.HTML + + + + + + + + + + + + + + + + + + + +  + + + + + */
 /* Teacher's card */
-
 
 
 
@@ -315,17 +345,17 @@ footer {
 
 /* When screen's width is 1024 or smaller, the image stays 1024px ============================ */
 /* make the facts card responsive */
-@media screen and (max-width: 1424px) {
+@media screen and (max-width: 1824px) {
     .facts-container {
         /* margin: 80px; */
-        width: 90%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
     .iadt-facts {
         display: block; 
-        width: 35%;
-        margin-left: 10%;
+        width: 42%;
+        margin-left: 6%;
     }
     .contact-button {
         margin-left: 14%;
@@ -386,6 +416,11 @@ footer {
 
     .card-text-content, .contentsMargin {
         margin: 40px;
+    }
+
+    /* make the paragraph font in iadt intro bigger */
+    #iadt-intro p {
+        font-size: 18px;
     }
 }
 
